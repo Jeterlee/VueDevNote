@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>V-for 案例</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../assets/js/vue.js">
+    </script>
+</head>
+
+<body>
+    <h1>v-for指令用法</h1>
+    <p>
+        v-for指令是循环渲染一组data中的数组，v-for 指令需要以 item in items 形式的特殊语法，items 是源数据数组并且item是数组元素迭代的别名。
+    </p>
+    <hr>
+    <div id="app">
+        <ul>
+            <li v-for="item in sortItems">
+                {{item}}
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li v-for="student in students">
+                {{student.name}}-{{student.age}}
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li v-for="(student,index) in students">
+                {{index}}: {{student.name}}-{{student.age}}
+            </li>
+        </ul>
+        <br>
+        <ul>
+            <li v-for="(student,index) in sortStudent">
+                {{index}}: {{student.name}}-{{student.age}}
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        var app = new Vue({
+            el: '#app',
+            data: {
+                items: [20, 23, 18, 65, 32, 19, 5, 56, 41],
+                students: [{
+                    name: 'jspang',
+                    age: 32
+                }, {
+                    name: 'Panda',
+                    age: 30
+                }, {
+                    name: 'PanPaN',
+                    age: 21
+                }, {
+                    name: 'King',
+                    age: 45
+                }]
+            },
+            // computed里新声明了一个对象sortItems，如果不重新声明会污染原来的数据源，
+            // 这是Vue不允许的，所以你要重新声明一个对象 
+            computed: {
+                sortItems: function() {
+                    return this.items.sort(sortNumber);
+                },
+                sortStudent: function() {
+                    return sortByKey(this.students, 'age');
+                }
+            }
+        });
+
+        // 数组对象方法排序:
+        function sortByKey(array, key) {
+            return array.sort(function(a, b) {
+                var x = a[key];
+                var y = b[key];
+                return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+            });
+        }
+
+        function sortNumber(a, b) {
+            return a - b
+        }
+    </script>
+</body>
+
+</html>

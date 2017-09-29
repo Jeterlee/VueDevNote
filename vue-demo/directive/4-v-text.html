@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>v-text & v-html 案例</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../assets/js/vue.js">
+    </script>
+</head>
+
+<body>
+<h1>v-text & v-html 案例</h1>
+<p>
+    1.我们已经会在html中输出data中的值了，我们已经用的是{{xxx}},这种情况是有弊端的，
+    就是当我们网速很慢或者javascript出错时，会暴露我们的{{xxx}}。Vue给我们提供的v-text,
+    就是解决这个问题的<br>
+    2.双大括号会将数据解释为纯文本，而非HTML。为了输出真正的HTML，你就需要使用v-html 指令。<br>
+    需要注意的是：在生产环境中动态渲染HTML是非常危险的，因为容易导致XSS攻击。所以只能在可信的内容上使用v-html，永远不要在用户提交和可操作的网页上使用。
+</p>
+<hr>
+<div id="app">
+    <span>{{message}}</span>=<span v-text="message"></span><br>
+    <span v-html="msgHtml"></span>
+</div>
+<script type="text/javascript">
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!',
+            msgHtml: '<h2>hello Vue!</h2>'
+        }
+    })
+</script>
+</body>
+
+</html>
