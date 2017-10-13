@@ -2,6 +2,7 @@
 项目说明：学习Vue2全家桶：`vue2.js`、`vue-cli`、`vue-router`、`vuex` 的笔记。
 
 - [**Vue2.0官方网站**](http://vuejs.org/)
+- [**Vue Github**](https://github.com/vuejs/vue)
 - [**Vue相关开源项目库汇总(史上最全)**](http://blog.csdn.net/caijunfen/article/details/78221680)
 
 
@@ -72,6 +73,7 @@
 - <h5 id="1.1.1"> 1.1.1、走起我的vue2.0</h5>
 
     [**Vue 官方网站**](http://vuejs.org/)
+    
     [**Vue Github**](https://github.com/vuejs/vue)
 
     **开发版本**：包含完整的警告和调试模式 
