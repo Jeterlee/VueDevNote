@@ -1,7 +1,8 @@
 # Vue2DevNote
 项目说明：学习Vue2全家桶：`vue2.js`、`vue-cli`、`vue-router`、`vuex` 的笔记。
 
-[**Vue2.0官方网站**](http://vuejs.org/)
+- [**Vue2.0官方网站**](http://vuejs.org/)
+- [**Vue相关开源项目库汇总(史上最全)**](http://blog.csdn.net/caijunfen/article/details/78221680)
 
 
 ## 目录结构
