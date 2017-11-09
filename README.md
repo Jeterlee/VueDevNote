@@ -5,6 +5,16 @@
 - [**Vue Github**](https://github.com/vuejs/vue)
 - [**Vue相关开源项目库汇总(史上最全)**](http://blog.csdn.net/caijunfen/article/details/78221680)
 - [**Vue 脱坑记 - 查漏补缺(汇总下群里高频询问的xxx及给出不靠谱的解决方案)**](https://juejin.im/post/59fa9257f265da43062a1b0e)
+- [**Vue折腾记 - (1)写一个不大靠谱的二级侧边栏**](https://juejin.im/post/59689933518825492a4c1bd1)
+- [**Vue折腾记 - (2)写一个不大靠谱的面包屑组件**](https://juejin.im/post/596d844b5188252a2470047c)
+- [**Vue折腾记 - (3)写一个不大靠谱的typeahead组件**](https://juejin.im/post/59704e65f265da6c483d0e55)
+- [**Vue 折腾记 - (4) 写一个不大靠谱的 loading 组件**](https://juejin.im/post/5971753c5188255944744957)
+- [**Vue 折腾记 - (5) 写一个不大靠谱的selectSearch组件**](https://juejin.im/post/5972ea2f6fb9a06bc569204f)
+- [**Vue 折腾记 - (6) 写一个不大靠谱的backToTop组件**](https://juejin.im/post/5975f912f265da6c317de6c4)
+- [**Vue 折腾记 - (7) 写一个挺不靠谱的Vue-Echarts组件**](https://juejin.im/post/597712ea51882548a13c196a)
+- [**Vue 折腾记 - (8) 写一个挺靠谱的多地区选择组件**](https://juejin.im/post/59998b71f265da247a15814b)
+- [**Vue 折腾记 - (9) 写一个挺靠谱的typeahead组件**](https://juejin.im/post/599f9b39f265da247f1c6132)
+- [**Vue 折腾记 - (10) 给axios做个挺靠谱的封装(报错,鉴权,跳转,拦截,提示)**](https://juejin.im/post/59a22e71518825242c422604)
 
 
 ## 目录结构
