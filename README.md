@@ -4,6 +4,7 @@
 - [**Vue2.0官方网站**](http://vuejs.org/)
 - [**Vue Github**](https://github.com/vuejs/vue)
 - [**Vue相关开源项目库汇总(史上最全)**](http://blog.csdn.net/caijunfen/article/details/78221680)
+- [**Vue 脱坑记 - 查漏补缺(汇总下群里高频询问的xxx及给出不靠谱的解决方案)**](https://juejin.im/post/59fa9257f265da43062a1b0e)
 
 
 ## 目录结构
